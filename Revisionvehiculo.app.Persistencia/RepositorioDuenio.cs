@@ -14,7 +14,7 @@ namespace Revisionvehiculo.app.Persistencia
         {
             duenios = new List<Duenio>()
             {
-                new Duenio{Id=1,Nombre="Victor",Apellido="Wilches",Telefono="5555",Ciudad="Bogota",Correo="victor@yahoo.es"}
+                new Duenio{Id=1,Nombre="zzz",Apellido="zzz",Telefono="5555",Ciudad="Bogota",Correo="zzzz@yahoo.es"}
                 
             };
         }
