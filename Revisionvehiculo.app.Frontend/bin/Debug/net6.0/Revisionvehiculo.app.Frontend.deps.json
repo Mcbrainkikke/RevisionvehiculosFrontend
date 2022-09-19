@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Revisionvehiculo.app.Frontend/1.0.0": {
+        "dependencies": {
+          "Revisionvehiculo.app.Dominio": "1.0.0",
+          "Revisionvehiculo.app.Persistencia": "1.0.0"
+        },
+        "runtime": {
+          "Revisionvehiculo.app.Frontend.dll": {}
+        }
+      },
+      "Revisionvehiculo.app.Dominio/1.0.0": {
+        "runtime": {
+          "Revisionvehiculo.app.Dominio.dll": {}
+        }
+      },
+      "Revisionvehiculo.app.Persistencia/1.0.0": {
+        "dependencies": {
+          "Revisionvehiculo.app.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "Revisionvehiculo.app.Persistencia.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Revisionvehiculo.app.Frontend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Revisionvehiculo.app.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Revisionvehiculo.app.Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

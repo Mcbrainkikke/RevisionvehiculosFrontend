@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Revisionvehiculo.app.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Revisionvehiculo.app.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Revisionvehiculo.app.Dominio.dll": {}
+        }
+      },
+      "Revisionvehiculo.app.Persistencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Revisionvehiculo.app.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Revisionvehiculo.app.Persistencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Revisionvehiculo.app.Persistencia.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Revisionvehiculo.app.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Revisionvehiculo.app.Dominio/Revisionvehiculo.app.Dominio.csproj",
+      "msbuildProject": "../Revisionvehiculo.app.Dominio/Revisionvehiculo.app.Dominio.csproj"
+    },
+    "Revisionvehiculo.app.Persistencia/1.0.0": {
+      "type": "project",
+      "path": "../Revisionvehiculo.app.Persistencia/Revisionvehiculo.app.Persistencia.csproj",
+      "msbuildProject": "../Revisionvehiculo.app.Persistencia/Revisionvehiculo.app.Persistencia.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Revisionvehiculo.app.Dominio >= 1.0.0",
+      "Revisionvehiculo.app.Persistencia >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Victor\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\revisionVTFrontend\\Revisionvehiculo.app\\Revisionvehiculo.app.Frontend\\Revisionvehiculo.app.Frontend.csproj",
+      "projectName": "Revisionvehiculo.app.Frontend",
+      "projectPath": "C:\\revisionVTFrontend\\Revisionvehiculo.app\\Revisionvehiculo.app.Frontend\\Revisionvehiculo.app.Frontend.csproj",
+      "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+      "outputPath": "C:\\revisionVTFrontend\\Revisionvehiculo.app\\Revisionvehiculo.app.Frontend\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\revisionVTFrontend\\Revisionvehiculo.app\\Revisionvehiculo.app.Dominio\\Revisionvehiculo.app.Dominio.csproj": {
+              "projectPath": "C:\\revisionVTFrontend\\Revisionvehiculo.app\\Revisionvehiculo.app.Dominio\\Revisionvehiculo.app.Dominio.csproj"
+            },
+            "C:\\revisionVTFrontend\\Revisionvehiculo.app\\Revisionvehiculo.app.Persistencia\\Revisionvehiculo.app.Persistencia.csproj": {
+              "projectPath": "C:\\revisionVTFrontend\\Revisionvehiculo.app\\Revisionvehiculo.app.Persistencia\\Revisionvehiculo.app.Persistencia.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+﻿@page
+@model Revisionvehiculo.app.Frontend.Pages.DetailsModel
+@{
+}
+<h2>@Model.Duenio.Nombre</h2>
+<div>
+    ID: @Model.Duenio.Id
+</div>
+<div>
+    Apellido: @Model.Duenio.Apellido
+</div>
+<div>
+    Telefono: @Model.Duenio.Telefono
+</div>
+<div>
+    Ciudad: @Model.Duenio.Ciudad
+</div>
+<a asp-page="./List" class="btn-default">Lista</a>
+
+

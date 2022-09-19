@@ -1,0 +1,32 @@
+﻿@page
+@model Revisionvehiculo.app.Frontend.Pages.ListModel
+@{
+}
+<h1>Revision de vehiculos</h1>
+<table class="table">
+    @foreach (var duenio in Model.Duenios)
+    {
+        <tr>
+            <td>@duenio.Nombre</td>
+            <td>@duenio.Apellido</td>
+            <td>@duenio.Telefono</td>
+            <td>@duenio.Ciudad</td>
+            <td>@duenio.Correo</td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page = "./Details" asp-route-IdDuenio = "@duenio.Id">
+                <i class="fas fa-info-circle"></i>
+                Detalle
+                </a>
+
+                <a class="btn btn-primary table-btn" asp-page = "./Edit" asp-route-IdDuenio = "@duenio.Id">
+                <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                Editar
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>

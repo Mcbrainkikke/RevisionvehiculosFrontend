@@ -1,0 +1,12 @@
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\bin\Debug\net6.0\Revisionvehiculo.app.Dominio.deps.json
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\bin\Debug\net6.0\Revisionvehiculo.app.Dominio.dll
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\bin\Debug\net6.0\Revisionvehiculo.app.Dominio.pdb
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\obj\Debug\net6.0\Revisionvehiculo.app.Dominio.csproj.AssemblyReference.cache
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\obj\Debug\net6.0\Revisionvehiculo.app.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\obj\Debug\net6.0\Revisionvehiculo.app.Dominio.AssemblyInfoInputs.cache
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\obj\Debug\net6.0\Revisionvehiculo.app.Dominio.AssemblyInfo.cs
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\obj\Debug\net6.0\Revisionvehiculo.app.Dominio.csproj.CoreCompileInputs.cache
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\obj\Debug\net6.0\Revisionvehiculo.app.Dominio.dll
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\obj\Debug\net6.0\refint\Revisionvehiculo.app.Dominio.dll
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\obj\Debug\net6.0\Revisionvehiculo.app.Dominio.pdb
+C:\revisionVTFrontend\Revisionvehiculo.app\Revisionvehiculo.app.Dominio\obj\Debug\net6.0\ref\Revisionvehiculo.app.Dominio.dll

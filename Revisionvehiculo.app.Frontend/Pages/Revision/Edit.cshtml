@@ -1,0 +1,37 @@
+﻿@page
+@model Revisionvehiculo.app.Frontend.Pages.EditModel
+@{
+}
+<h2> Edicion De Datos: @Model.Duenio.Nombre</h2>
+<form method="post">
+    <input type="hidden" asp-for="Duenio.Id"/>
+
+    <div class="form-group">
+        <label asp-for="Duenio.Nombre"></label>
+        <input asp-for="Duenio.Nombre" class="form.control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Duenio.Apellido"></label>
+        <input asp-for="Duenio.Apellido" class="form.control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Duenio.Telefono"></label>
+        <input asp-for="Duenio.Telefono" class="form.control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Duenio.Ciudad"></label>
+        <input asp-for="Duenio.Ciudad" class="form.control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Duenio.Correo"></label>
+        <input asp-for="Duenio.Correo" class="form.control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+
+</form>
+<a asp-page="./List" class="btn-default">Lista</a>
