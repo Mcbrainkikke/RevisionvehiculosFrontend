@@ -16,9 +16,17 @@ namespace Revisionvehiculo.app.Frontend.Pages
         {
             this.RepositorioDuenio = RepositorioDuenio;
         }
-        public IActionResult OnGet(int IdDuenio)
+        public IActionResult OnGet(int? IdDuenio)
         {
-            Duenio = RepositorioDuenio.GetDuenio(IdDuenio);
+            if(IdDuenio.HasValue)
+            {
+            Duenio = RepositorioDuenio.GetDuenio(IdDuenio.Value);
+            }
+            else 
+            {            
+                Duenio = new Duenio();
+            }
+
             if(Duenio == null)
             {
                 return RedirectToPage("./NotFound"); 
@@ -29,7 +37,14 @@ namespace Revisionvehiculo.app.Frontend.Pages
 
         public IActionResult OnPost()
         {
-            Duenio = RepositorioDuenio.UpdateDuenio(Duenio);
+            if(Duenio.Id > 0 )
+            {
+                Duenio = RepositorioDuenio.UpdateDuenio(Duenio);
+            }
+            else
+            {
+                RepositorioDuenio.AddDuenio(Duenio);
+            }
             return Page();
         }
     }

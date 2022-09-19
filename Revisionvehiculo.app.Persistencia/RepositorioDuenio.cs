@@ -19,9 +19,11 @@ namespace Revisionvehiculo.app.Persistencia
             };
         }
 
-        public Duenio AddDuenio(Duenio duenio)
+        public Duenio AddDuenio(Duenio duenioNuevo)
         {
-            throw new NotImplementedException();
+            duenioNuevo.Id = duenios.Max(h => h.Id) +1;
+            duenios.Add(duenioNuevo);
+            return duenioNuevo;
         }
 
         public void DeleteDuenio(int idDuenio)
