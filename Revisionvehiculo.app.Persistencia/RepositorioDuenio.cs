@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Revisionvehiculo.app.Dominio;
 using Revisionvehiculo.app.Persistencia;
+
 namespace Revisionvehiculo.app.Persistencia
 {
     public class RepositorioDuenio : IRepositorioDuenio
@@ -14,7 +15,7 @@ namespace Revisionvehiculo.app.Persistencia
         {
             duenios = new List<Duenio>()
             {
-                new Duenio{Id=1,Nombre="zzz",Apellido="zzz",Telefono="5555",Ciudad="Bogota",Correo="zzzz@yahoo.es"}
+                new Duenio{Id=1,Nombre=" ",Apellido=" ",Telefono=" ",Ciudad=" ",Correo=" "}
                 
             };
         }

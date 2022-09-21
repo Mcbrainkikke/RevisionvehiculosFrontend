@@ -6,13 +6,13 @@ using Revisionvehiculo.app.Dominio;
 
 namespace Revisionvehiculo.app.Persistencia
 {
-    public interface IRepositorioVehiculo
+    public interface IRepositorioVehiculo 
     {
         IEnumerable<Vehiculo> GetAllVehiculos();
 
         Vehiculo AddVehiculo(Vehiculo vehiculo);
-        Vehiculo UpdateVehiculo(Vehiculo vehiculo);
+        Vehiculo UpdateVehiculo(Vehiculo vehiculoEditado);
         void DeleteVehiculo(int idVehiculo);
-        Vehiculo GetVehiculo(int vehiculo);
+        Vehiculo GetVehiculo(int IdVehiculo);
     }
 }

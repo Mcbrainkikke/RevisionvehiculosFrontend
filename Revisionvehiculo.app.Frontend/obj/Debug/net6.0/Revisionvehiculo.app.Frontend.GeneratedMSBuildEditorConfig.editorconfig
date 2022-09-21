@@ -31,12 +31,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/revisionVTFrontend/Revisionvehiculo.app/Revisionvehiculo.app.Frontend/Pages/Revision/DetailsMecanicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25cRGV0YWlsc01lY2FuaWNvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/revisionVTFrontend/Revisionvehiculo.app/Revisionvehiculo.app.Frontend/Pages/Revision/DetailsVehiculo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25cRGV0YWlsc1ZlaGljdWxvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/revisionVTFrontend/Revisionvehiculo.app/Revisionvehiculo.app.Frontend/Pages/Revision/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/revisionVTFrontend/Revisionvehiculo.app/Revisionvehiculo.app.Frontend/Pages/Revision/EditMecanico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25cRWRpdE1lY2FuaWNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/revisionVTFrontend/Revisionvehiculo.app/Revisionvehiculo.app.Frontend/Pages/Revision/EditVehiculo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25cRWRpdFZlaGljdWxvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/revisionVTFrontend/Revisionvehiculo.app/Revisionvehiculo.app.Frontend/Pages/Revision/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25cTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/revisionVTFrontend/Revisionvehiculo.app/Revisionvehiculo.app.Frontend/Pages/Revision/ListMecanicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25cTGlzdE1lY2FuaWNvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/revisionVTFrontend/Revisionvehiculo.app/Revisionvehiculo.app.Frontend/Pages/Revision/ListVehiculo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aXNpb25cTGlzdFZlaGljdWxvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/revisionVTFrontend/Revisionvehiculo.app/Revisionvehiculo.app.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]

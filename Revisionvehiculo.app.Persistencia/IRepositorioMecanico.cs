@@ -11,8 +11,8 @@ namespace Revisionvehiculo.app.Persistencia
         IEnumerable<Mecanico> GetAllMecanicos();
 
         Mecanico AddMecanico(Mecanico mecanico);
-        Mecanico UpdadteMecanico(Mecanico mecanico);
+        Mecanico UpdadteMecanico(Mecanico mecanicoEditado);
         void DeleteMecanico(int idMecanico);
-        Mecanico GetMecanico(int mecanico);
+        Mecanico GetMecanico(int IdMecanico);
     }
 }

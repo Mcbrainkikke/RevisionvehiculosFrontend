@@ -1,0 +1,24 @@
+﻿@page
+@model Revisionvehiculo.app.Frontend.Pages.DetailsVehiculoModel
+@{
+}
+<h2>@Model.Vehiculo.Placa</h2>
+<div>
+    ID: @Model.Vehiculo.Id
+</div>
+<div>
+    Placa del Vehiculo: @Model.Vehiculo.Placa
+</div>
+<div>
+    Tipo de Vehiculo: @Model.Vehiculo.Tipo
+</div>
+<div>
+    Marca del Vehiculo: @Model.Vehiculo.Marca
+</div>
+<div>
+    Año del modelo del vehiculo: @Model.Vehiculo.AnioModelo
+</div>
+<div>
+    Capacidad del Vehiculo: @Model.Vehiculo.Capacidad
+</div>
+<a asp-page="./ListVehiculo" class="btn-default">Lista</a>

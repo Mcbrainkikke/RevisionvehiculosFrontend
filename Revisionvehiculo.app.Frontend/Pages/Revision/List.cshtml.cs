@@ -7,7 +7,7 @@ namespace Revisionvehiculo.app.Frontend.Pages
 {
     public class ListModel : PageModel
     {
-
+        //Dueño
         private readonly IRepositorioDuenio RepositorioDuenio;
 
         public IEnumerable<Duenio> Duenios { get; set; }

@@ -1,0 +1,44 @@
+﻿@page
+@model Revisionvehiculo.app.Pages.EditVehiculoModel
+@{
+}
+<h2> Edicion De Datos: @Model.Vehiculo.Placa</h2>
+<form method="post">
+    <input type="hidden" asp-for="Vehiculo.Id"/>
+
+    <div class="form-group">
+        <label asp-for="Vehiculo.Placa"></label>
+        <input asp-for="Vehiculo.Placa" class="form.control">
+        <span class="text-danger" asp-validation-for="Vehiculo.Placa"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Vehiculo.Tipo"></label>
+        <input asp-for="Vehiculo.Tipo" class="form.control">
+        <span class="text-danger" asp-validation-for="Vehiculo.Tipo"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Vehiculo.Marca"></label>
+        <input asp-for="Vehiculo.Marca" class="form.control">
+        <span class="text-danger" asp-validation-for="Vehiculo.Marca"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Vehiculo.AnioModelo"></label>
+        <input asp-for="Vehiculo.AnioModelo" class="form.control">
+        <span class="text-danger" asp-validation-for="Vehiculo.AnioModelo"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Vehiculo.Capacidad"></label>
+        <input asp-for="Vehiculo.Capacidad" class="form.control">
+        <span class="text-danger" asp-validation-for="Vehiculo.Capacidad"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+
+</form>
+<a asp-page="./ListVehiculo" class="btn-default">Lista</a>
+
+

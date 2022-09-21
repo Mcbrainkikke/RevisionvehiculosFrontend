@@ -1,0 +1,24 @@
+﻿@page
+@model Revisionvehiculo.app.Frontend.Pages.DetailsMecanicosModel
+@{
+}
+<h2>@Model.Mecanico.Nombre</h2>
+<div>
+    ID: @Model.Mecanico.Id
+</div>
+<div>
+    Nombre: @Model.Mecanico.Nombre
+</div>
+<div>
+    Apellido: @Model.Mecanico.Apellido
+</div>
+<div>
+    Telefono: @Model.Mecanico.Telefono
+</div>
+<div>
+    Direccion: @Model.Mecanico.Direccion
+</div>
+<div>
+    Nivel de Estudios: @Model.Mecanico.NivelEstudios
+</div>
+<a asp-page="./ListMecanicos" class="btn-default">Lista</a>

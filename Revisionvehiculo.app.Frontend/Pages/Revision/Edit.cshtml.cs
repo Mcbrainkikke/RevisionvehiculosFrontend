@@ -37,6 +37,10 @@ namespace Revisionvehiculo.app.Frontend.Pages
 
         public IActionResult OnPost()
         {
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
             if(Duenio.Id > 0 )
             {
                 Duenio = RepositorioDuenio.UpdateDuenio(Duenio);

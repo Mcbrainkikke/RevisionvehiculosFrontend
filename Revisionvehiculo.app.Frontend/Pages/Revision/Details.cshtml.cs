@@ -8,6 +8,7 @@ namespace Revisionvehiculo.app.Frontend.Pages
 {
     public class DetailsModel : PageModel
     {
+        //Dueño
         private readonly IRepositorioDuenio RepositorioDuenio;
 
         public Duenio Duenio {get;set;}
@@ -28,5 +29,7 @@ namespace Revisionvehiculo.app.Frontend.Pages
             else
             return Page();
         }
+
+
     }
 }

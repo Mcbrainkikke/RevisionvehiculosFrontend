@@ -1,0 +1,37 @@
+﻿@page
+@model Revisionvehiculo.app.Frontend.Pages.ListVehiculoModel
+@{
+}
+<h1>Listado de Vehiculos</h1>
+<table class="table">
+    @foreach (var vehiculo in Model.Vehiculos)
+    {
+        <tr>
+            <td>@vehiculo.Placa</td>
+            <td>@vehiculo.Tipo</td>
+            <td>@vehiculo.Marca</td>
+            <td>@vehiculo.AnioModelo</td>
+            <td>@vehiculo.Capacidad</td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page = "./DetailsVehiculo" asp-route-IdVehiculo = "@vehiculo.Id">
+                <i class="fas fa-info-circle"></i>
+                Detalle
+                </a>
+
+                <a class="btn btn-primary table-btn" asp-page = "./EditVehiculo" asp-route-IdDuenio = "@vehiculo.Id">
+                <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                Editar
+                </a>
+
+                <a class="btn btn-primary table-btn" asp-page = "./EditVehiculo">                
+                Ingresar nuevo Vehiculo
+                </a>
+
+            </td>
+
+        </tr>
+    }
+
+</table>
+

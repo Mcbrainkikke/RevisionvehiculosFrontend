@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TBgHl4tzvQ+nHodFjYq3qC0q55kjUfInh9cmVQAd/EwcKYGCA50KFNvet/8b8j49Ur9LVtMnADjqkOGjgEIB9Q==",
+  "dgSpecHash": "9PzDJ30zNK9OPbPmdDWSb3seAoY40FFXKNpj0dSHVTHldbU8iNjx6GUpY24OwEApv85ql+mjoy2Ji6hwWUMF/g==",
   "success": true,
   "projectFilePath": "C:\\revisionVTFrontend\\Revisionvehiculo.app\\Revisionvehiculo.app.Persistencia\\Revisionvehiculo.app.Persistencia.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Victor\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

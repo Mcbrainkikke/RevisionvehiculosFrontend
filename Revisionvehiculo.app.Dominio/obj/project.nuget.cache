@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "v0cJn5NOwvpqdi/kNsxAgFS2LcgR1Qe7zj8Q9KsW0cAJkxz1YtT+DAN9hohZCIEZuqBl3ZoHgf0bInaOA3Q9hA==",
+  "dgSpecHash": "5xmek4OEqAnd1r9dy8aO07mi+SR+J247zoIw3a5dsKNsrNJ2UgDSH4XKFpnA3P5A2mGIUPC896shNuR83uhfyQ==",
   "success": true,
   "projectFilePath": "C:\\revisionVTFrontend\\Revisionvehiculo.app\\Revisionvehiculo.app.Dominio\\Revisionvehiculo.app.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Victor\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
