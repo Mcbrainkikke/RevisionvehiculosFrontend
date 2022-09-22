@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Revisionvehiculo.app.Dominio;
 using Revisionvehiculo.app.Persistencia;
 
-namespace Revisionvehiculo.app.Pages
+namespace Revisionvehiculo.app.Frontend.Pages
 {
-    public class EditVehiculoModel : PageModel
+    public class  EditVehiculoModel: PageModel
     {
         private readonly IRepositorioVehiculo RepositorioVehiculo;
         [BindProperty]
@@ -41,7 +41,7 @@ namespace Revisionvehiculo.app.Pages
             {
                 return Page();
             }
-            if(Vehiculo.Id > 0 )
+            if(Vehiculo.Id < 0 )
             {
                 Vehiculo = RepositorioVehiculo.UpdateVehiculo(Vehiculo);
             }

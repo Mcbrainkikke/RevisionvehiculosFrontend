@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="~/Revisionvehiculo.app.Frontend.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
+    <header>        
+        @*desde aqui empieza el original*@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">Empresa de Revision de Vehiculos</a>
@@ -38,7 +39,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav>       
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -59,3 +60,17 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+@* <head>
+            <meta charset="utf-8">
+            <title>Inicio de Sesion</title>
+            <link rel="stylesheet" href="_Layout.cshtml.css"> 
+        </head>
+        <section class="form-login">
+         <h5>Inicip de Sesion</h5>
+             <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
+             <input class="controls" type="password" name="contrasenia" value="" placeholder="Contraseña">
+             <input class="buttons" type="submit" name="" value="Ingresar">
+             <p>><a href="#">¡Olvidaste tu Contraseña?</a></p> 
+        </section>
+        *@

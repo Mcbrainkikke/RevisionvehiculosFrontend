@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Revisionvehiculo.app.Dominio;
 using Revisionvehiculo.app.Persistencia;
 
-namespace Revisionvehiculo.app.Pages
+namespace Revisionvehiculo.app.Frontend.Pages
 {
     public class EditMecanicoModel : PageModel
     {
